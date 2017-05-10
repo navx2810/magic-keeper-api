@@ -1,0 +1,15 @@
+h1. magic-keeper-api
+
+An API for a magic the gathering application.
+
+h2. Technology Used
+
+h3. Back End
+
+- "Better-SQLite3":https://github.com/JoshuaWise/better-sqlite3 := a Node.JS SQLite library with synchronous bindings.
+- "Restify":https://github.com/restify/node-restify := a library for serving restful requests from an API.
+
+h3. Development
+
+- "Typescript":https://www.typescriptlang.org/ := a *transpiled* language for JS that includes types.
+- "NodeJS":https://nodejs.org := the back-end language used by the server/electron application.
