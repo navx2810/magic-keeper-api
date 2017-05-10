@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# Non-transferable data
+cards/*.json
+
 # Runtime data
 pids
 *.pid
