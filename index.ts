@@ -19,6 +19,10 @@ class Connection {
         })
             .use(bodyParser())
             .use(queryParser())
+            .use((req, res, next) => {
+                res.header("Access-Control-Allow-Origin", "*")
+                return next()
+            })
             
         const s = this.server
         s.post(Path("/cards/mine"), this.AddCard)
